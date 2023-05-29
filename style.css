@@ -1,0 +1,58 @@
+.one {
+    width: 100%;
+}
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    color: white;
+    background-color: orange;
+    font-size: 4rem;
+}
+
+#one {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    text-align: right;
+    color: white;
+    background-color: blue;
+    border: 5px solid black;
+}
+
+#two {
+    text-align: left;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2em;
+    color: yellow;
+    background-color: black;
+    border: 5px solid brown;
+}
+
+.three {
+    display: inline-block;
+    width: 20%;
+    margin-left: 40%;
+    margin-right: 40%;
+}
+
+.form {
+    display: table;
+}
+div.form {
+    display: table-row;
+}
+
+label, input {
+    display: table-cell;
+    margin-bottom: 10 px;
+}
+
+label {
+    padding-right: 10px;
+}
+
+button {
+    color: white;
+    background-color: red;
+}
